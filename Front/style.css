@@ -1,0 +1,27 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 15px 10px;
+}
+
+#button {
+    background-color: rgb(214, 199, 96);
+    color: black;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 4px 8px;
+}
+
+ul{
+    list-style: none;
+}
+
+#characterName {
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+#character {
+    font-size: 22px;
+}

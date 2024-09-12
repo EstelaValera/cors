@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Rick and morty API</title>
+</head>
+<body>
+    <h1>RICK AND MORTY API NODE</h1>
+    <label id="character" for="characterName">Busca por nombre:</label>
+    <input 
+        type="text" 
+        id="characterName" 
+        name="characterName" 
+        placeholder="Nombre" 
+        required/>
+    <button id="button" onclick="getCharacters()">Buscar personaje</button>
+    <ul id="results"></ul>
+    <script src="./script.js"></script>
+</body>
+</html>
